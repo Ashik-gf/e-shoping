@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
     <title>E-Home</title>
 </head>
 
@@ -110,17 +112,17 @@
                 <!-- 3 -->
                 <div class=" grid col-span-3  sm:col-span-2  justify-self-stretch">
                     <div class="flex justify-end items-center gap-3">
-                        <img class=" cursor-pointer h-4 sm:h-8 w-4 sm:w-8 rounded-full p-2 bg-gray-200" src="./images/left.svg" />
-                        <img class=" cursor-pointer h-4 sm:h-8 w-4 sm:w-8 rounded-full p-2 bg-gray-200" src="./images/right.svg" />
+                        <img class=" prevArrow cursor-pointer h-4 sm:h-8 w-4 sm:w-8 rounded-full p-2 bg-gray-200" src="./images/left.svg" />
+                        <img class=" nextArrow cursor-pointer h-4 sm:h-8 w-4 sm:w-8 rounded-full p-2 bg-gray-200" src="./images/right.svg" />
                     </div>
                 </div>
 
             </div>
         </div>
         <!-- Card Section -->
-        <div class=" w-full grid lg:grid-cols-12 md:grid-cols-6 justify-items-center gap-4 overflow-hidden ">
+        <div class=" flash_Sales border-2  ">
             <!-- card 1 -->
-            <div class="grid col-span-3 w-[270px] h-[350px]  ">
+            <div class=" w-[240px]  h-[350px] mx-2 ">
                 <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-40%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
@@ -132,7 +134,7 @@
                         Add to Cart
                     </button>
                 </div>
-                <div class=" pt-4">
+                <div class=" pt-4 px-4">
                     <h1 class=" text-lg font-semibold">HAVIT HV-G92 Gamepad</h1>
                     <div class=" flex justify-start items-center gap-4">
                         <p class=" text-red-500">$120</p>
@@ -145,7 +147,7 @@
                 </div>
             </div>
             <!-- card 2 -->
-            <div class="grid col-span-3 w-[270px] h-[350px]  ">
+            <div class=" w-[240px]  h-[350px] mx-2  ">
                 <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-35%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
@@ -157,7 +159,7 @@
                         Add to Cart
                     </button>
                 </div>
-                <div class=" pt-4">
+                <div class=" pt-4 px-2">
                     <h1 class=" text-lg font-semibold">AK-900 Wired Keyboard</h1>
                     <div class=" flex justify-start items-center gap-4">
                         <p class=" text-red-500">$960</p>
@@ -170,7 +172,7 @@
                 </div>
             </div>
             <!-- card 3 -->
-            <div class="grid col-span-3 w-[270px] h-[350px]  ">
+            <div class=" w-[240px]  h-[350px] mx-2  ">
                 <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-30%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
@@ -182,7 +184,7 @@
                         Add to Cart
                     </button>
                 </div>
-                <div class=" pt-4">
+                <div class=" pt-4 px-2">
                     <h1 class=" text-lg font-semibold">IPS LCD Gaming Monitor</h1>
                     <div class=" flex justify-start items-center gap-4">
                         <p class=" text-red-500">$370</p>
@@ -195,7 +197,7 @@
                 </div>
             </div>
             <!-- card 4 -->
-            <div class="grid col-span-3 w-[270px] h-[350px]  ">
+            <div class=" w-[240px]  h-[350px] mx-2  ">
                 <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-25%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
@@ -207,7 +209,7 @@
                         Add to Cart
                     </button>
                 </div>
-                <div class=" pt-4">
+                <div class=" pt-4 px-2">
                     <h1 class=" text-lg font-semibold">S-Series Comfort Chair </h1>
                     <div class=" flex justify-start items-center gap-4">
                         <p class=" text-red-500">$375</p>
@@ -216,6 +218,31 @@
                     <div class=" flex justify-start items-center gap-2">
                         <img src="./images/fourhalf.svg" />
                         <p class="text-slate-300">(99)</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class=" w-[240px]  h-[350px] mx-2  ">
+                <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                    <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-40%</h1>
+                    <div class=" space-y-2 absolute top-2 right-1">
+                        <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
+                        <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
+                    </div>
+                    <img src="./images/game.svg" />
+                    <button class=" hidden group-hover:block group-hover:animate-bounce absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class=" pt-4 px-2">
+                    <h1 class=" text-lg font-semibold">HAVIT HV-G92 Gamepad</h1>
+                    <div class=" flex justify-start items-center gap-4">
+                        <p class=" text-red-500">$120</p>
+                        <p class="text-slate-300"> <del>$160</del></p>
+                    </div>
+                    <div class=" flex justify-start items-center gap-2">
+                        <img src="./images/Five star.svg" />
+                        <p class="text-slate-300">(88)</p>
                     </div>
                 </div>
             </div>
@@ -258,30 +285,43 @@
         </div>
         <div class=" w-full h-full sm:h-[145px] ">
             <ul class=" grid grid-cols-12 gap-4">
-                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/Category-Phone.svg" alt=""></a>
-                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-phone.svg" alt=""></a>
+               
+                <li class=" group hover:bg-red-500 cursor-pointer  col-span-4 rounded-lg sm:col-span-2 w-[170px] h-[145px] border-2 flex justify-center items-center">
+                    <a class=" group-hover:hidden " href="">
+                    <img  src="./images/Category-CellPhone.svg" alt="">
+                    <h1 class="py-2">Phones</h1>
+                </a>
+                <a class="group-hover:block group-hover:bg-red-500 hidden  rounded-lg ">
+                    <img  src="./image/" alt="">
+                    <h1 class="text-white py-2">Phones</h1>
+                </a>
                 </li>
-                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/computer.svg" alt=""></a>
-                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-monitor.svg" alt=""></a>
+                <li class=" group hover:bg-red-500 cursor-pointer  col-span-4 rounded-lg sm:col-span-2 w-[170px] h-[145px] border-2 flex justify-center items-center">
+                    <a class=" group-hover:hidden " href="">
+                    <img  src="./images/Category-Computer.svg" alt="">
+                    <h1 class="py-2">Monitor</h1>
+                </a>
+                <a class="group-hover:block group-hover:bg-red-500 hidden  rounded-lg ">
+                    <img  src="./images/Category-Computer (2).svg" alt="">
+                    <h1 class="text-white py-2">Monitor</h1>
+                </a>
                 </li>
 
                 <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/smartWatch.svg" alt=""></a>
-                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-watch.svg" alt=""></a>
+                    <img class=" group-hover:hidden " src="./images/Category-SmartWatch.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/Category-SmartWatch (2).svg" alt=""></a>
                 </li>
                 <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/camera-white.svg" alt=""></a>
-                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-camera.svg" alt=""></a>
+                    <img class=" group-hover:hidden " src="./images/Category-Camera.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/Category-Camera (1).svg" alt=""></a>
                 </li>
                 <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/headPhone.svg" alt=""></a>
-                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-headphone.svg" alt=""></a>
+                    <img class=" group-hover:hidden " src="./images/Category-Headphone.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/Category-Headphone (1).svg" alt=""></a>
                 </li>
                 <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/gaming.svg" alt=""></a>
-                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-gaming.svg" alt=""></a>
+                    <img class=" group-hover:hidden " src="./images/Category-Gamepad.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/Category-Gamepad (1).svg" alt=""></a>
                 </li>
             </ul>
         </div>
@@ -779,6 +819,11 @@
             </div>
         </div>
     </div>
+<!-- Jquery CDN -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./slick/slick.min.js"></script>
+<script src="./slik.js"></script>
 
 </body>
 
