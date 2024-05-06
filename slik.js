@@ -1,3 +1,14 @@
+const homeNavbar = document.getElementById("homeNavbar");
+const shadowMenu = document.getElementById('navMenu');
+
+ homeNavbar.addEventListener("click", function(){
+  shadowMenu.style.display='block'
+  
+})
+
+
+
+
 $(document).ready(function(){
     $('.flash_Sales').slick({
         // autoplay:true,
@@ -6,7 +17,10 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows:true,
         nextArrow:".nextArrow",
-        prevArrow:".prevArrow"
+        prevArrow:".prevArrow",
+        mobileFirst:'true',
+        useCSS:'true'
+
 
     }),
     $('.Category_browser').slick({
